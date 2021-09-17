@@ -1,0 +1,10 @@
+.amazing-font {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    background-color: #FFFD38;
+}
+
+#black-button {
+    background-color: black;
+    color: white;
+}
