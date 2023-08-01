@@ -29,4 +29,19 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+.dropdown-menu {
+  transform-origin: top;
+  animation: 1s open-menu ease-in-out;
+}
 
+@keyframes open-menu {
+  0% {
+    transform: scaleY(0);
+  }
+  50% {
+    transform: scaleY(1.2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
